@@ -484,6 +484,27 @@ p {
     color: forestgreen;
 }
 
+/* Scroll */
+.arrow-up {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    color: var(--color-white);
+    background-color: rgb(158, 58, 58);
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 400ms ease-in;
+}
+
+.arrow-up.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
 /* For below 768px screen width */
 
 @media screen and (max-width: 768px) {
