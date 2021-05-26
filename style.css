@@ -35,7 +35,6 @@
 }
 
 /* Universal tags */
-
  * {
     box-sizing: border-box;
 }
@@ -67,7 +66,6 @@ button {
 
 
 /* Typography */
-
 h1 {
     font-size: var(--font-large);
     font-weight: var(--weight-bold);
@@ -97,7 +95,6 @@ p {
 }
 
 /* Navbar */
-
 .logo {
     width: 20px;
     height: 20px;
@@ -155,7 +152,6 @@ p {
 }
 
 /* Home */
-
 #home {
     background: url('imgs/home-background.png') center/cover no-repeat;
     padding: 40px;
@@ -259,8 +255,8 @@ p {
     width: 30px;
     height: 30px;
 }
-/* Skill */
 
+/* Skill */
 #skills {
     background-color: #adf0ec;
 }
@@ -315,7 +311,6 @@ p {
 }
 
 /* Work */
-
 .work__categories {
     margin: 40px;
 }
@@ -422,8 +417,8 @@ p {
     margin-top: 8px;
     background-color: var(--color-dark-white);
 }
-/* Testimonial */
 
+/* Testimonial */
 #testimonials {
     background-color: var(--color-light-white);
 }
@@ -469,7 +464,6 @@ p {
 }
 
 /* Contact */
-
 #contact {
     background-color:lightgreen;
 }
