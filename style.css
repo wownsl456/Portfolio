@@ -31,7 +31,7 @@
     --size--border-radius: 4px;
 
     /* Annimation */
-    --animation-duration: 600ms;
+    --animation-duration: 500ms;
 }
 
 /* Universal tags */
@@ -476,12 +476,12 @@ p {
 .contact__links {
     font-size: var(--font-large);
     margin: 24px 0;
-    transition: all var(--animation-duration) ease-in;
 }
 
 .contact__links i:hover {
     transform: scale(1.1);
     color: forestgreen;
+    transition: all var(--animation-duration) ease-in;
 }
 
 /* Scroll */
@@ -497,7 +497,7 @@ p {
     border-radius: 50%;
     opacity: 0;
     pointer-events: none;
-    transition: opacity 400ms ease-in;
+    transition: opacity 600ms ease-in;
 }
 
 .arrow-up.visible {
