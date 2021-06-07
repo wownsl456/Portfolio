@@ -35,6 +35,7 @@
 }
 
 /* Universal tags */
+
  * {
     box-sizing: border-box;
 }
@@ -66,6 +67,7 @@ button {
 
 
 /* Typography */
+
 h1 {
     font-size: var(--font-large);
     font-weight: var(--weight-bold);
@@ -95,6 +97,7 @@ p {
 }
 
 /* Navbar */
+
 .logo {
     width: 20px;
     height: 20px;
@@ -151,6 +154,7 @@ p {
 }
 
 /* Home */
+
 #home {
     background: url('imgs/home-background.png') center/cover no-repeat;
     padding: 40px;
@@ -185,6 +189,7 @@ p {
 }
 
 /* Section common */
+
 .section {
     padding: 50px;
     text-align: center;
@@ -197,6 +202,7 @@ p {
 }
 
 /* About */
+
 .about__majors {
     display: flex;
     justify-content: space-between;
@@ -260,6 +266,7 @@ p {
 }
 
 /* Skill */
+
 #skills {
     background-color: #adf0ec;
 }
@@ -314,6 +321,7 @@ p {
 }
 
 /* Work */
+
 .work__categories {
     margin: 40px;
 }
@@ -423,6 +431,7 @@ p {
 }
 
 /* Testimonial */
+
 #testimonials {
     background-color: var(--color-light-white);
 }
@@ -444,11 +453,13 @@ p {
 }
 
 /* odd = 홀수 */
+
 .testimonial__avatar:nth-child(odd) {     
     margin-right: 40px;
 }
 
 /* even = 짝수 */
+
 .testimonial__avatar:nth-child(even) {
     margin-left: 40px;
 }
@@ -468,6 +479,7 @@ p {
 }
 
 /* Contact */
+
 #contact {
     background-color:lightgreen;
 }
@@ -494,6 +506,7 @@ p {
 }
 
 /* Scroll */
+
 .arrow-up {
     position: fixed;
     bottom: 50px;
