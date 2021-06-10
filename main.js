@@ -117,7 +117,7 @@ function selectNavItem(selected) {
 function scrollIntoView(selector) {
     const scrollTo = document.querySelector(selector);
     scrollTo.scrollIntoView({ behavior: 'smooth' });
-    selectNavItem(navItmes[sectionIds.indexOf(selector)]);
+    selectNavItem(navItems[sectionIds.indexOf(selector)]);
 }
 
 
