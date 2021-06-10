@@ -520,7 +520,6 @@ p {
     height: 50px;
     font-size: 40px;
     color: var(--color-black);
-    border-radius: 50%;
     opacity: 0;
     pointer-events: none;
     transition: opacity 600ms ease-in;
