@@ -1,5 +1,3 @@
-'use strict';
-
 // Make navbar transparent when it is on the top
 const navbar = document.querySelector('#navbar');
 const navbarHeight = navbar.getBoundingClientRect().height;
@@ -7,7 +5,7 @@ document.addEventListener('scroll', () => {
     if (window.scrollY > navbarHeight){
         navbar.classList.add('navbar--dark');
     } else {
-        navbar.classList.remove('navbar--dark')
+        navbar.classList.remove('navbar--dark');
     }
 }); 
 
@@ -23,18 +21,16 @@ navbarMenu.addEventListener('click', (event) => {
     scrollIntoView(link);
 });
 
-
 // Nabar toggle button for small screen
 const navbarToggleBtn = document.querySelector('.navbar__toggle-btn');
 navbarToggleBtn.addEventListener('click', () => {
     navbarMenu.classList.toggle('open');
 });
 
-
 // Handle click on "contact me" button on home
 const homeContactBtn = document.querySelector('.home__contact');
 homeContactBtn.addEventListener('click', () => {
-    scrollIntoView('#contact')
+    scrollIntoView('#contact');
 });
 
 // Make home slowly fade to transparent as the window scrolls down
@@ -75,7 +71,6 @@ active.classList.remove('selected');
 const target = 
     e.target.nodeName === 'BUTTON' ? e.target : e.target.parentNode;
     target.classList.add('selected');
-
 projectContainer.classList.add('anim-out');
     setTimeout(() => {
         projects.forEach((project) => {
@@ -119,7 +114,6 @@ function scrollIntoView(selector) {
     scrollTo.scrollIntoView({ behavior: 'smooth' });
     selectNavItem(navItems[sectionIds.indexOf(selector)]);
 }
-
 
 const observerOptions = {
     root: null,
