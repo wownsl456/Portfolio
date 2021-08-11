@@ -149,3 +149,4 @@ window.addEventListener('scroll', () => {
     }
     selectNavItem(navItems[selectedNavIndex]);
 });
+
