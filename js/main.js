@@ -93,7 +93,6 @@ const sectionIds = [
     '#about',
     '#skills',
     '#work', 
-    '#testimonials', 
     '#contact',
 ];
 
