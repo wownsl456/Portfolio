@@ -300,6 +300,34 @@
     margin: 0 auto;
 }
 
+.modal11 {
+    width: 900px;
+    height: 800px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+    display: none;
+   
+}
+
+.modal11 img {
+    width: 100%;
+    vertical-align: top;
+    
+}
+
+.modal11 p {
+    width: 900px;
+    height: 50px;
+    text-align: right;
+    line-height: 50px;
+    padding-right: 15px;
+    background-color: #4d4d4d;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 768px) {
     .modal {
         position: fixed;
@@ -441,6 +469,19 @@
     }
 
     .modal10 p {
+        width: 400px;
+    }
+
+    .modal11 {
+        position: fixed;
+        left: 0;
+        top: 0;
+        transform: translate(-115%,50%);
+        width: 400px;
+        height: 300px;
+    }
+
+    .modal11 p {
         width: 400px;
     }
 }
