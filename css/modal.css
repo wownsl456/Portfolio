@@ -552,7 +552,7 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 568px) {
     .modal {
         position: fixed;
         left: 0;
@@ -570,7 +570,7 @@
         position: fixed;
         left: 0;
         top: 0;
-        transform: translate(-115%,50%);
+        transform: translate(0%,0%);
         width: 400px;
         height: 300px;
     }
@@ -583,7 +583,7 @@
         position: fixed;
         left: 0;
         top: 0;
-        transform: translate(-115%,50%);
+        transform: translate(0%,0%);
         width: 400px;
         height: 300px;
     }
@@ -596,7 +596,7 @@
         position: fixed;
         left: 0;
         top: 0;
-        transform: translate(-115%,50%);
+        transform: translate(0%,0%);
         width: 400px;
         height: 300px;
     }
@@ -609,7 +609,7 @@
         position: fixed;
         left: 0;
         top: 0;
-        transform: translate(-115%,50%);
+        transform: translate(0%,0%);
         width: 400px;
         height: 300px;
     }
@@ -622,7 +622,7 @@
         position: fixed;
         left: 0;
         top: 0;
-        transform: translate(-115%,50%);
+        transform: translate(0%,0%);
         width: 400px;
         height: 300px;
     }
@@ -635,7 +635,7 @@
         position: fixed;
         left: 0;
         top: 0;
-        transform: translate(-115%,50%);
+        transform: translate(0%,0%);
         width: 400px;
         height: 300px;
     }
@@ -648,7 +648,7 @@
         position: fixed;
         left: 0;
         top: 0;
-        transform: translate(-115%,50%);
+        transform: translate(0%,0%);
         width: 400px;
         height: 300px;
     }
@@ -661,7 +661,7 @@
         position: fixed;
         left: 0;
         top: 0;
-        transform: translate(-115%,50%);
+        transform: translate(0%,0%);
         width: 400px;
         height: 300px;
     }
@@ -674,7 +674,7 @@
         position: fixed;
         left: 0;
         top: 0;
-        transform: translate(-115%,50%);
+        transform: translate(0%,0%);
         width: 400px;
         height: 300px;
     }
@@ -687,7 +687,7 @@
         position: fixed;
         left: 0;
         top: 0;
-        transform: translate(-115%,50%);
+        transform: translate(0%,0%);
         width: 400px;
         height: 300px;
     }
@@ -700,12 +700,116 @@
         position: fixed;
         left: 0;
         top: 0;
-        transform: translate(-115%,50%);
+        transform: translate(0%,0%);
         width: 400px;
         height: 300px;
     }
 
     .modal11 p {
+        width: 400px;
+    }
+
+    .modal12 {
+        position: fixed;
+        left: 0;
+        top: 0;
+        transform: translate(0%,0%);
+        width: 400px;
+        height: 300px;
+    }
+
+    .modal12 p {
+        width: 400px;
+    }
+
+    .modal13 {
+        position: fixed;
+        left: 0;
+        top: 0;
+        transform: translate(0%,0%);
+        width: 400px;
+        height: 300px;
+    }
+
+    .modal13 p {
+        width: 400px;
+    }
+
+    .modal14 {
+        position: fixed;
+        left: 0;
+        top: 0;
+        transform: translate(0%,0%);
+        width: 400px;
+        height: 300px;
+    }
+
+    .modal14 p {
+        width: 400px;
+    }
+
+    .modal15 {
+        position: fixed;
+        left: 0;
+        top: 0;
+        transform: translate(0%,0%);
+        width: 400px;
+        height: 300px;
+    }
+
+    .modal15 p {
+        width: 400px;
+    }
+
+    .modal16 {
+        position: fixed;
+        left: 0;
+        top: 0;
+        transform: translate(0%,0%);
+        width: 400px;
+        height: 300px;
+    }
+
+    .modal16 p {
+        width: 400px;
+    }
+
+    .modal17 {
+        position: fixed;
+        left: 0;
+        top: 0;
+        transform: translate(0%,0%);
+        width: 400px;
+        height: 300px;
+    }
+
+    .modal17 p {
+        width: 400px;
+    }
+
+    .modal18 {
+        position: fixed;
+        left: 0;
+        top: 0;
+        transform: translate(0%,0%);
+        width: 400px;
+        height: 300px;
+    }
+
+    .modal18 p {
+        width: 400px;
+    }
+
+    .modal19 {
+        position: fixed;
+        left: 0;
+        top: 0;
+        transform: translate(0%,0%);
+        width: 400px;
+        height: 300px;
+    }
+
+    .modal19 p {
         width: 400px;
     }
 }
