@@ -557,7 +557,7 @@
         position: fixed;
         left: 0;
         top: 0;
-        transform: translate(-115%,50%);
+        transform: translate(0%,0%);
         width: 400px;
         height: 300px;
     }
